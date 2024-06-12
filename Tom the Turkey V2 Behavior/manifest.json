@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Tom the Turkey V2",
+		"description": "Tom the Turkey V2 Behavior Pack",
+		"uuid": "d8b638ec-5d05-54b8-5482-de56b1f3d788",
+		"version": [1, 0, 4],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["HarryPlopper"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.5.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 4],
+			"uuid": "008ed28f-2d0f-2784-1601-0b916fb2a525",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ff9b89c4-83dd-3e2b-2cfc-e4e28735c1bf",
+			"version": [1, 0, 4]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "tom_the_turkey:tom_the_turkey",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/tom_the_turkey"
+            },
+            "geometry": {
+                "default": "geometry.tom_the_turkey"
+            },
+            "render_controllers": ["controller.render.default"],
+            "spawn_egg": {
+                "base_color": "#4c3b1f",
+                "overlay_color": "#2e9314"
+            },
+            "animations": {
+				"walk": "animation.tom_the_turkey.walk",
+				"default": "animation.tom_the_turkey.default"
+			},
+			"scripts": {
+				"animate": [
+				    "controller.tom_the_turkey.move"
+				]
+			}
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tom_the_turkey.default": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"wing0": {
+					"rotation": {
+						"0.0": [0, 0, "25+0 - this"],
+						"0.5": [0, 0, 2.43],
+						"1.0": [0, 0, "25+0 - this"]
+					}
+				},
+				"wing1": {
+					"rotation": {
+						"0.0": [0, 0, "-35-0 - this"],
+						"0.5": [0, 0, "-0 - this"],
+						"1.0": [0, 0, "-35-0 - this"]
+					}
+				}
+			}
+		}
+	}
+}

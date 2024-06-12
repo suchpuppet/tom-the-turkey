@@ -1,0 +1,69 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tom_the_turkey.walk": {
+			"loop": true,
+			"animation_length": 2,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"leg0": {
+					"rotation": {
+						"0.0": ["-60+math.cos(query.anim_time * 38.17) *  80.0", 0, 0],
+						"0.5": ["-60+math.cos(query.anim_time * 38.17) *  80.0", 0, 0],
+						"1.0": ["-75+math.cos(query.anim_time * 38.17) *  80.0", 0, 0],
+						"1.5": ["-40+math.cos(query.anim_time * 38.17) *  80.0", 0, 0],
+						"2.0": ["math.cos(query.anim_time * 38.17) *  80.0", 0, 0]
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": ["math.cos(query.anim_time * 38.17) * -20", 0, 0],
+						"0.5": ["math.cos(query.anim_time * 38.17) * +0", 0, 0],
+						"1.0": ["math.cos(query.anim_time * 38.17) * +20", 0, 0],
+						"1.5": ["math.cos(query.anim_time * 38.17) * +2.5", 0, 0],
+						"2.0": ["math.cos(query.anim_time * 38.17) * -72.5", 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, -2.5],
+						"0.5": [0, 0, 0],
+						"1.0": [0, 0, 5],
+						"1.5": [0, 0, 0],
+						"2.0": [0, 0, -2.5]
+					}
+				},
+				"beak": {
+					"rotation": [0, 0, 0]
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, 0, 5],
+						"0.5": [0, 0, 0],
+						"1.0": [0, 0, -5],
+						"1.5": [0, 0, 0],
+						"2.0": [0, 0, 5]
+					}
+				},
+				"wing0": {
+					"rotation": {
+						"0.0": [0, 0, 10],
+						"0.5": [0, 0, 0],
+						"1.0": [0, 0, 10],
+						"1.5": [0, 0, 0],
+						"2.0": [0, 0, 10]
+					}
+				},
+				"wing1": {
+					"rotation": {
+						"0.0": [0, 0, -10],
+						"0.5": [0, 0, 0],
+						"1.0": [0, 0, -10],
+						"1.5": [0, 0, 0],
+						"2.0": [0, 0, -10]
+					}
+				}
+			}
+		}
+	}
+}
