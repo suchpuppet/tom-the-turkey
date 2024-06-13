@@ -1,24 +1,18 @@
 {
-	"format_version": 2,
-	"header": {
-		"name": "Tom the Turkey V2",
-		"description": "Tom the Turkey V2 Resource Pack",
-		"uuid": "ff9b89c4-83dd-3e2b-2cfc-e4e28735c1bf",
-		"version": [1, 0, 4],
-		"min_engine_version": [1, 16, 0]
-	},
-	"metadata": {
-		"authors": ["HarryPlopper"],
-		"generated_with": {
-			"blockbench_entity_wizard": ["1.5.0"]
-		}
-	},
-	"modules": [
-		{
-			"description": "Tom the Turkey V2",
-			"type": "resources",
-			"uuid": "fb2df291-53b3-5347-d12a-250702567c5f",
-			"version": [1, 0, 4]
-		}
-	]
+    "format_version": 2,
+    "header": {
+        "name": "Tom the Turkey V2",
+        "description": "Resource Pack for Tom the Turkey",
+        "uuid": "9f123456-789a-42d3-a456-426614174000",
+        "version": [1, 1, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Tom the Turkey V2",
+            "type": "resources",
+            "uuid": "9f123456-789a-42d3-a456-426614174001",
+            "version": [1, 1, 0]
+        }
+    ]
 }
