@@ -3,7 +3,7 @@
     "header": {
         "name": "Tom the Turkey V2 Behavior Pack",
         "description": "Behavior Pack for Tom the Turkey",
-        "uuid": "e5b8f8c1-2f94-4d54-8c85-0e2b8e2c0c84",
+        "uuid": "f97b20d4-5f0b-4e65-8b39-828f5bb7bc38",
         "version": [1, 1, 0],
         "min_engine_version": [1, 20, 0]
     },
@@ -11,13 +11,13 @@
         {
             "description": "Tom the Turkey V2 Behavior Pack",
             "type": "data",
-            "uuid": "b3e1a3e7-1e62-4e6b-9b58-8f8e6e2c0b84",
+            "uuid": "74c34e17-13b3-4ec3-b90d-9a1a7e1df038",
             "version": [1, 1, 0]
         }
     ],
     "dependencies": [
         {
-            "uuid": "9f123456-789a-42d3-a456-426614174000",
+            "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
             "version": [1, 1, 0]
         }
     ]
