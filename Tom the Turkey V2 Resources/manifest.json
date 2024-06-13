@@ -3,7 +3,7 @@
     "header": {
         "name": "Tom the Turkey V2",
         "description": "Resource Pack for Tom the Turkey",
-        "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "uuid": "b0a74c14-82cb-4a2a-9e1c-1e0d555a2b34",
         "version": [1, 1, 0],
         "min_engine_version": [1, 20, 0]
     },
@@ -11,7 +11,7 @@
         {
             "description": "Tom the Turkey V2",
             "type": "resources",
-            "uuid": "c56a4180-65aa-42ec-a945-5fd21dec0538",
+            "uuid": "c02a92e4-4d88-4c5c-9e45-7d5cb35e4939",
             "version": [1, 1, 0]
         }
     ]
